@@ -563,8 +563,13 @@ def rej_customers():
         col("_fail_invalid_segment") | col("_fail_invalid_region")
     ).withColumn(
         "record_data", to_json(struct(
-            col("customer_id"), col("customer_name"), col("customer_email"),
-            col("_raw_segment"), col("_raw_region")
+            coalesce(col("customer_id").cast("string"), lit("NULL")).alias("customer_id"),
+            coalesce(col("customer_name").cast("string"), lit("NULL")).alias("customer_name"),
+            coalesce(col("customer_email").cast("string"), lit("NULL")).alias("customer_email"),
+            coalesce(col("segment").cast("string"), lit("NULL")).alias("segment"),
+            coalesce(col("region").cast("string"), lit("NULL")).alias("region"),
+            coalesce(col("_raw_segment").cast("string"), lit("NULL")).alias("_raw_segment"),
+            coalesce(col("_raw_region").cast("string"), lit("NULL")).alias("_raw_region"),
         ))
     )
 
@@ -675,8 +680,14 @@ def rej_orders():
         col("_fail_unparseable_date")
     ).withColumn(
         "record_data", to_json(struct(
-            col("order_id"), col("customer_id"), col("vendor_id"),
-            col("_raw_ship_mode"), col("_raw_order_status"), col("_raw_order_date")
+            coalesce(col("order_id").cast("string"), lit("NULL")).alias("order_id"),
+            coalesce(col("customer_id").cast("string"), lit("NULL")).alias("customer_id"),
+            coalesce(col("vendor_id").cast("string"), lit("NULL")).alias("vendor_id"),
+            coalesce(col("ship_mode").cast("string"), lit("NULL")).alias("ship_mode"),
+            coalesce(col("order_status").cast("string"), lit("NULL")).alias("order_status"),
+            coalesce(col("_raw_ship_mode").cast("string"), lit("NULL")).alias("_raw_ship_mode"),
+            coalesce(col("_raw_order_status").cast("string"), lit("NULL")).alias("_raw_order_status"),
+            coalesce(col("_raw_order_date").cast("string"), lit("NULL")).alias("_raw_order_date"),
         ))
     )
 
@@ -780,8 +791,14 @@ def rej_transactions():
         col("_fail_discount_out_of_range")
     ).withColumn(
         "record_data", to_json(struct(
-            col("order_id"), col("product_id"),
-            col("_raw_sales"), col("_raw_quantity"), col("_raw_discount")
+            coalesce(col("order_id").cast("string"), lit("NULL")).alias("order_id"),
+            coalesce(col("product_id").cast("string"), lit("NULL")).alias("product_id"),
+            coalesce(col("sales").cast("string"), lit("NULL")).alias("sales"),
+            coalesce(col("quantity").cast("string"), lit("NULL")).alias("quantity"),
+            coalesce(col("discount").cast("string"), lit("NULL")).alias("discount"),
+            coalesce(col("_raw_sales").cast("string"), lit("NULL")).alias("_raw_sales"),
+            coalesce(col("_raw_quantity").cast("string"), lit("NULL")).alias("_raw_quantity"),
+            coalesce(col("_raw_discount").cast("string"), lit("NULL")).alias("_raw_discount"),
         ))
     )
 
@@ -894,8 +911,15 @@ def rej_returns():
         col("_fail_unparseable_return_date")
     ).withColumn(
         "record_data", to_json(struct(
-            col("order_id"), col("_raw_return_reason"), col("_raw_return_status"),
-            col("_raw_refund_amount"), col("_raw_return_date")
+            coalesce(col("order_id").cast("string"), lit("NULL")).alias("order_id"),
+            coalesce(col("return_reason").cast("string"), lit("NULL")).alias("return_reason"),
+            coalesce(col("return_status").cast("string"), lit("NULL")).alias("return_status"),
+            coalesce(col("refund_amount").cast("string"), lit("NULL")).alias("refund_amount"),
+            coalesce(col("return_date").cast("string"), lit("NULL")).alias("return_date"),
+            coalesce(col("_raw_return_reason").cast("string"), lit("NULL")).alias("_raw_return_reason"),
+            coalesce(col("_raw_return_status").cast("string"), lit("NULL")).alias("_raw_return_status"),
+            coalesce(col("_raw_refund_amount").cast("string"), lit("NULL")).alias("_raw_refund_amount"),
+            coalesce(col("_raw_return_date").cast("string"), lit("NULL")).alias("_raw_return_date"),
         ))
     )
 
@@ -966,7 +990,10 @@ def rej_products():
         "_has_any_failure",
         col("_fail_product_id_null") | col("_fail_product_name_null")
     ).withColumn(
-        "record_data", to_json(struct(col("product_id"), col("product_name")))
+        "record_data", to_json(struct(
+            coalesce(col("product_id").cast("string"), lit("NULL")).alias("product_id"),
+            coalesce(col("product_name").cast("string"), lit("NULL")).alias("product_name"),
+        ))
     )
 
     failures = flagged.filter(col("_has_any_failure") == True)
@@ -1012,7 +1039,10 @@ def rej_vendors():
         "_has_any_failure",
         col("_fail_vendor_id_null") | col("_fail_vendor_name_null")
     ).withColumn(
-        "record_data", to_json(struct(col("vendor_id"), col("vendor_name")))
+        "record_data", to_json(struct(
+            coalesce(col("vendor_id").cast("string"), lit("NULL")).alias("vendor_id"),
+            coalesce(col("vendor_name").cast("string"), lit("NULL")).alias("vendor_name"),
+        ))
     )
 
     failures = flagged.filter(col("_has_any_failure") == True)
