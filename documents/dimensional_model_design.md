@@ -1,5 +1,22 @@
 # GlobalMart Dimensional Model Design
 
+## Why Galaxy Schema (Fact Constellation)?
+
+This platform uses a **Galaxy Schema** (also called a **Fact Constellation Schema**) — a dimensional modeling pattern where **multiple fact tables share conformed dimensions**. Unlike a simple Star Schema (one fact, many dimensions) or a Snowflake Schema (normalized dimensions), the Galaxy Schema is the right choice here because GlobalMart has two distinct business processes that need to be analyzed both independently and together:
+
+1. **`fact_sales`** — captures the revenue/order process (orders × transactions)
+2. **`fact_returns`** — captures the returns/refund process (returns × orders)
+
+Both fact tables share the same conformed dimensions (`dim_customers`, `dim_dates`, `dim_products`, `dim_vendors`), enabling cross-process analysis such as: "Which customers generate high revenue but also have high return rates?" or "Which vendors sell the most but also have the highest refund costs?"
+
+**Why not Star Schema?** A single fact table cannot cleanly represent both sales and returns — they have different grains (order line item vs. return event), different measures (sales/profit vs. refund_amount), and different business processes. Forcing them into one table would create NULLs, ambiguous metrics, and incorrect aggregations.
+
+**Why not Snowflake Schema?** Our dimensions are already compact (374 customers, ~800 products, ~50 vendors). Normalizing them into sub-dimensions would add join complexity without meaningful storage savings.
+
+**The bridge table (`bridge_return_products`)** is a natural extension of the Galaxy Schema — it resolves the many-to-many relationship between returns (order-level) and products (line-item-level) that exists across the two fact tables, enabling product-level return cost attribution.
+
+---
+
 ## 1. Model Overview
 
 | Layer | Table | Type | Grain | Source |
@@ -135,8 +152,18 @@
 ## 4. Bridge Table
 
 ### bridge_return_products
-- **Problem:** Returns are at the order level, but products are at the line-item level. A returned order may contain multiple products, so we cannot directly attribute the refund to a single product.
-- **Solution:** Proportional allocation based on each line item's share of total order sales.
+
+**Why a bridge table is needed:**
+
+In the Galaxy Schema, `fact_returns` captures refunds at the **order level** (one refund per returned order), while `fact_sales` captures revenue at the **line-item level** (one row per product in an order). This creates a **grain mismatch** — a single return with a $150 refund might cover an order containing 3 different products. Without the bridge table, we cannot answer critical questions like:
+- "Which specific products are driving the highest return costs?"
+- "Is a vendor's return problem caused by one bad product or across their entire catalog?"
+- "Which product categories should be investigated for quality issues?"
+
+The bridge table resolves this many-to-many relationship by **proportionally allocating** each refund across the products in that order based on their share of total order revenue. If Product A was 60% of the order value and Product B was 40%, the $150 refund is split as $90 and $60 respectively.
+
+This directly enables the **Inventory Blindspot** business failure analysis (12–18% revenue lost from product misallocation) — without it, return costs cannot be traced back to specific products and vendors.
+
 - **Grain:** One row per return × product combination
 - **Source:** `gold.fact_returns INNER JOIN gold.fact_sales ON order_id` (reads from Gold for correct DLT lineage)
 

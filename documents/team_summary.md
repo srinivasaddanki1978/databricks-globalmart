@@ -8,7 +8,7 @@ A complete Data Intelligence Platform on Databricks Free Edition that solves thr
 |-------|---------|---------|
 | Bronze | 6 streaming tables | Raw ingestion via Auto Loader — zero transformations |
 | Silver | 8 tables (6 clean + rejected_records + audit_log) | 23 quality rules, standardization, quarantine |
-| Gold | 10 tables (4 dims + 2 facts + 1 bridge + 3 MVs) | Dimensional model with deduplication |
+| Gold | 10 tables (4 dims + 2 facts + 1 bridge + 3 MVs) | Galaxy Schema (Fact Constellation) with deduplication |
 | Metrics | 6 materialized views | Pre-computed aggregations per business failure |
 | GenAI | 4 notebooks, 4 output tables | LLM-powered audit, fraud, RAG, executive summaries |
 | **Total** | **30 tables + 4 GenAI outputs** | |

@@ -24,7 +24,7 @@ A complete Data Intelligence Platform built on **Databricks Free Edition** that 
 ┌─────────────────┐
 │  Silver Layer   │  6 clean tables + rejected_records + pipeline_audit_log
 └────────┬────────┘
-         │ Dimensional Model
+         │ Galaxy Schema (Fact Constellation)
          ▼
 ┌─────────────────┐
 │   Gold Layer    │  4 dims + 2 facts + 1 bridge + 3 materialized views
