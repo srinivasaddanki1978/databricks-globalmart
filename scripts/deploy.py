@@ -9,15 +9,16 @@ Uses the Databricks Python SDK to:
 4. Upload DLT notebooks (01-04) and GenAI notebooks (05-08)
 5. Create the DLT pipeline (Bronze -> Silver -> Gold -> Metrics)
 6. Create the end-to-end Workflow (DLT pipeline + GenAI notebooks 05-08)
-7. Create the Genie Space (20 tables + instructions + join patterns)
-8. Print summary with all URLs
+7. Print summary with all URLs and next steps
+
+After the Workflow job completes successfully, create the Genie Space:
+    python scripts/setup_genie.py
 
 Usage:
     python scripts/deploy.py
     python scripts/deploy.py --skip-data       # Skip data file upload
     python scripts/deploy.py --skip-pipeline   # Skip DLT pipeline creation
     python scripts/deploy.py --skip-job        # Skip Workflow creation
-    python scripts/deploy.py --skip-genie      # Skip Genie Space creation
 
 Prerequisites:
     export DATABRICKS_HOST="https://<your-workspace>.cloud.databricks.com"
@@ -34,10 +35,6 @@ from databricks.sdk import WorkspaceClient
 from databricks.sdk.service.catalog import VolumeType
 from databricks.sdk.service import pipelines, jobs, compute
 from databricks.sdk.service.workspace import ImportFormat, Language
-
-# Import Genie setup from sibling script
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from setup_genie import create_genie_space
 
 
 # ---------------------------------------------------------------------------
@@ -347,20 +344,9 @@ def create_workflow(w: WorkspaceClient, pipeline_id: str, genai_folder: str, use
 
 
 # ---------------------------------------------------------------------------
-# Step 8 -- Create Genie Space
+# Step 8 -- Print summary
 # ---------------------------------------------------------------------------
-def setup_genie(w: WorkspaceClient) -> str:
-    """Create (or recreate) the GlobalMart Genie Space. Returns space_id."""
-    log("Step 8: Creating Genie Space ...")
-    space_id = create_genie_space(w, log)
-    return space_id
-
-
-# ---------------------------------------------------------------------------
-# Step 9 -- Print summary
-# ---------------------------------------------------------------------------
-def print_summary(user_email: str, pipeline_id: str, job_id: int,
-                  genie_space_id: str = None) -> None:
+def print_summary(user_email: str, pipeline_id: str, job_id: int) -> None:
     host = os.environ.get("DATABRICKS_HOST", "").rstrip("/")
     base = f"/Users/{user_email}/globalmart-data-intelligence"
 
@@ -379,8 +365,6 @@ def print_summary(user_email: str, pipeline_id: str, job_id: int,
     log("Key URLs:")
     log(f"  DLT Pipeline : {host}/#joblist/pipelines/{pipeline_id}")
     log(f"  Workflow Job : {host}/#job/{job_id}")
-    if genie_space_id:
-        log(f"  Genie Space  : {host}/genie/spaces/{genie_space_id}")
     log("")
     log("Notebook URLs:")
     for nb in DLT_NOTEBOOKS:
@@ -389,24 +373,19 @@ def print_summary(user_email: str, pipeline_id: str, job_id: int,
         log(f"  {host}/#workspace{base}/genai/{nb}")
     log("")
     log("=" * 60)
-    log("  AUTOMATED STEPS DONE -- MANUAL STEPS REMAINING")
+    log("  NEXT STEPS")
     log("=" * 60)
     log("")
-    log("Step A: Run the end-to-end Workflow")
+    log("Step 1: Run the end-to-end Workflow")
     log(f"  Open: {host}/#job/{job_id}")
     log("  Click 'Run now' to execute all 5 tasks in sequence.")
+    log("  Wait for all tasks to complete (15-30 min on Free Edition).")
     log("")
-    if genie_space_id:
-        log("Step B: Verify Genie Space instructions")
-        log(f"  Open: {host}/genie/spaces/{genie_space_id}")
-        log("  Click the pencil/edit icon (top right) -> Instructions tab")
-        log("  You should see the business context + join SQL patterns.")
-        log("  Test these 3 NL queries and screenshot each:")
-        log("    - 'What is the total revenue by region?'")
-        log("    - 'Which vendors have the highest return rate?'")
-        log("    - 'Show me the top 5 products by revenue in the West region'")
+    log("Step 2: Create the Genie Space (AFTER the Workflow completes)")
+    log("  The Genie Space requires all tables to exist first.")
+    log("  Run:  python scripts/setup_genie.py")
     log("")
-    log("Step C: Take screenshots for hackathon submission")
+    log("Step 3: Take screenshots for hackathon submission")
     log("  - Unity Catalog: all Bronze/Silver/Gold/Metrics tables")
     log("  - Successful pipeline run (all green)")
     log("  - Pipeline lineage graph")
@@ -426,7 +405,6 @@ def main():
     parser.add_argument("--skip-data",     action="store_true", help="Skip data file upload")
     parser.add_argument("--skip-pipeline", action="store_true", help="Skip DLT pipeline creation")
     parser.add_argument("--skip-job",      action="store_true", help="Skip Workflow creation")
-    parser.add_argument("--skip-genie",    action="store_true", help="Skip Genie Space creation")
     args = parser.parse_args()
 
     w, user_email = authenticate()
@@ -458,13 +436,7 @@ def main():
     else:
         job_id = create_workflow(w, pipeline_id, genai_folder, user_email)
 
-    if args.skip_genie:
-        log("Step 8: Skipping Genie Space creation (--skip-genie)")
-        genie_space_id = None
-    else:
-        genie_space_id = setup_genie(w)
-
-    print_summary(user_email, pipeline_id or "unknown", job_id, genie_space_id)
+    print_summary(user_email, pipeline_id or "unknown", job_id)
 
 
 if __name__ == "__main__":

@@ -167,7 +167,6 @@ This single command:
 - Uploads all 8 notebooks to your workspace
 - Creates the DLT pipeline (Bronze → Silver → Gold → Metrics)
 - Creates the end-to-end Workflow (pipeline + 4 GenAI notebooks)
-- Creates the Genie Space with 20 tables and descriptions
 - Prints all URLs and next steps
 
 **Optional flags:**
@@ -175,7 +174,6 @@ This single command:
 python scripts/deploy.py --skip-data      # skip data upload (already uploaded)
 python scripts/deploy.py --skip-pipeline  # skip pipeline creation (already exists)
 python scripts/deploy.py --skip-job       # skip Workflow creation (already exists)
-python scripts/deploy.py --skip-genie     # skip Genie Space creation (already exists)
 ```
 
 ---
@@ -234,9 +232,7 @@ python scripts/deploy.py --skip-genie     # skip Genie Space creation (already e
 
 ### 8 — Set Up the Genie Space
 
-> **Timing:** Complete this step only AFTER the Workflow (Step 7) has finished successfully and all tables are visible in the Unity Catalog. If you add Joins before the tables exist, the table dropdowns in the Genie UI will be empty.
-
-The Genie Space is created automatically by `deploy.py` (Step 6 above) with all 20 tables and per-table descriptions. If you need to recreate it standalone at any point (e.g., after dropping the space), run:
+> **Timing:** Complete this step **only AFTER** the Workflow (Step 7) has finished successfully and all tables are visible in the Unity Catalog. The Genie Space needs the tables to exist — running it before the job completes will fail.
 
 ```bash
 python scripts/setup_genie.py
