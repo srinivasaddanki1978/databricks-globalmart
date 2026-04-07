@@ -1,0 +1,113 @@
+CustomerID,customer_email,customer_name,segment,country,city,state,postal_code,region
+AA-10375,stern@verizon.net,Allen Armold,CONS,United States,Mesa,Arizona,85204,W
+AB-10165,atmarks@live.com,Alan Barnes,CONS,United States,Los Angeles,California,90036,W
+AC-10420,cvrcek@me.com,Alyssa Crouse,CORP,United States,San Francisco,California,94122,W
+AD-10180,dcoppit@gmail.com,Alan Dominguez,HO,United States,Great Falls,Montana,59405,W
+AG-10900,benits@msn.com,Arthur Gainer,CONS,United States,Tucson,Arizona,85705,W
+AH-10210,shaffei@sbcglobal.net,Alan Hwang,CONS,United States,Brentwood,Florida,94513,W
+AR-10510,horrocks@verizon.net,Andrew Roberts,CONS,United States,Los Angeles,California,90004,W
+AR-10825,shaffei@sbcglobal.net,Anthony Rawles,CORP,United States,Vancouver,Washington,98661,W
+AS-10285,wildfire@yahoo.com,Alejandro Savely,CORP,United States,San Francisco,Florida,94109,W
+AT-10735,mastinfo@msn.com,Annie Thurman,CONS,United States,Seattle,Washington,98115,W
+BB-10990,dmouse@outlook.com,Barry Blumstein,CORP,United States,Sierra Vista,Arizona,85635,W
+BD-11320,dinther@outlook.com,Bill Donatelli,CONS,United States,San Francisco,California,94110,W
+BH-11710,mastinfo@msn.com,Brosina Hoffman,CONS,United States,Los Angeles,California,90032,W
+BN-11515,ylchang@att.net,Bradley Nguyen,CONS,United States,Los Angeles,North Carolina,90049,W
+BP-11185,bancboy@icloud.com,Ben Peterman,CORP,United States,Arvada,Colorado,80004,W
+BS-11590,dbindel@gmail.com,Brendan Sweed,CORP,United States,Gilbert,Arizona,85234,W
+BS-11755,evans@me.com,Bruce Stewart,CONS,United States,Denver,Colorado,80219,W
+CC-12145,evans@me.com,Charles Crestani,CONS,United States,Los Angeles,California,90004,W
+CC-12550,dawnsong@hotmail.com,Clay Cheatham,CONS,United States,San Francisco,Indiana,94122,W
+CD-11920,duncand@mac.com,Carlos Daly,CONS,United States,Lake Elsinore,California,92530,W
+CJ-12010,pgolle@mac.com,Caroline Jumper,CONS,United States,Huntington Beach,Kentucky,92646,W
+CK-12325,payned@att.net,Christine Kargatis,HO,United States,Orem,Utah,84057,W
+CK-12760,world@att.net,Cyma Kinney,CORP,United States,San Francisco,California,94122,W
+CL-12565,comdig@yahoo.com,Clay Ludtke,CONS,United States,Lancaster,California,93534,W
+CM-12445,cremonini@me.com,Chuck Magee,CONS,United States,San Francisco,California,94122,W
+CS-12130,world@att.net,Chad Sievert,CONS,United States,Los Angeles,California,90004,W
+DB-13120,horrocks@verizon.net,David Bremer,CORP,United States,Santa Clara,Illinois,95051,W
+DB-13615,carcus@me.com,Doug Bickford,CONS,United States,Los Angeles,Pennsylvania,90045,W
+DK-13225,msroth@me.com,Dean Katz,CORP,United States,Anaheim,California,92804,W
+DP-13105,louise@msn.com,Dave Poirier,CORP,United States,Salinas,California,93905,W
+DS-13030,duncand@mac.com,Darrin Sayre,HO,United States,Seattle,Washington,98115,W
+DV-13045,mastinfo@msn.com,Darrin Van Huff,CORP,United States,Los Angeles,California,90036,W
+DV-13465,miyop@comcast.net,Dianna Vittorini,CONS,United States,Denver,Colorado,80219,W
+EB-13840,louise@msn.com,Ellis Ballard,CORP,United States,Seattle,Washington,98105,W
+EB-13870,geekgrl@comcast.net,Emily Burns,CONS,United States,Orem,Utah,84057,W
+EH-13945,fmerges@hotmail.com,Eric Hoffmann,CONS,United States,Los Angeles,California,90049,W
+EM-14095,cremonini@me.com,Eudokia Martin,CORP,United States,Los Angeles,California,90036,W
+ES-14020,bancboy@icloud.com,Erica Smith,CONS,United States,San Francisco,California,94110,W
+ES-14080,dawnsong@hotmail.com,Erin Smith,CORP,United States,Tucson,Arizona,85705,W
+FA-14230,comdig@yahoo.com,Frank Atkinson,CORP,United States,Long Beach,Arizona,90805,W
+FM-14290,dbindel@gmail.com,Frank Merwin,HO,United States,Los Angeles,California,90032,W
+FM-14380,pgolle@mac.com,Fred McMath,CONS,United States,Aurora,Colorado,80013,W
+FP-14320,duncand@mac.com,Frank Preis,CONS,United States,Los Angeles,California,90008,W
+GK-14620,cremonini@me.com,Grace Kelly,CORP,United States,Hesperia,Texas,92345,W
+GM-14440,privcan@optonline.net,Gary McGarr,CONS,United States,San Francisco,California,94122,W
+GZ-14470,geekgrl@comcast.net,Gary Zandusky,CONS,United States,San Francisco,California,94110,W
+HA-14920,specprog@icloud.com,Helen Andreada,CONS,United States,Pasadena,California,91104,W
+HW-14935,privcan@optonline.net,Helen Wasserman,CORP,United States,San Diego,California,92105,W
+JC-15340,dbindel@gmail.com,Jasper Cacioppo,CONS,United States,Los Angeles,California,90032,W
+JD-16060,bancboy@icloud.com,Julia Dunbar,CONS,United States,San Francisco,New Jersey,94109,W
+JE-15745,wildfire@yahoo.com,Joel Eaton,CONS,United States,Louisville,Colorado,80027,W
+JF-15490,louise@msn.com,Jeremy Farry,CONS,United States,Seattle,Washington,98105,W
+JG-15115,world@att.net,Jack Garza,CONS,United States,Des Moines,Washington,98198,W
+JH-15910,fmerges@hotmail.com,Jonathan Howell,CONS,United States,Los Angeles,New York,90032,W
+JK-15370,mstrout@me.com,Jay Kimmel,CONS,United States,Long Beach,California,90805,W
+JL-15835,horrocks@verizon.net,John Lee,CONS,United States,Mission Viejo,California,92691,W
+JO-15280,lukka@yahoo.ca,Jas O'Carroll,CONS,United States,Los Angeles,Michigan,90004,W
+JP-15520,ylchang@att.net,Jeremy Pistek,CONS,United States,San Francisco,Pennsylvania,94110,W
+JS-15595,tangsh@mac.com,Jill Stevenson,CORP,United States,Los Angeles,California,90045,W
+KB-16240,mhouston@optonline.net,Karen Bern,CORP,United States,Los Angeles,California,90036,W
+KC-16540,unreal@live.com,Kelly Collister,CONS,United States,San Diego,Michigan,92037,W
+KC-16675,mastinfo@msn.com,Kimberly Carter,CORP,United States,Seattle,Washington,98105,W
+KD-16345,benits@msn.com,Katherine Ducich,CONS,United States,San Francisco,California,94122,W
+KH-16510,benits@msn.com,Keith Herrera,CONS,United States,San Francisco,California,94110,W
+KH-16690,bancboy@icloud.com,Kristen Hastings,CORP,United States,San Francisco,Oklahoma,94110,W
+KL-16555,stern@verizon.net,Kelly Lampkin,CORP,United States,Colorado Springs,Colorado,80906,W
+KM-16720,dmouse@outlook.com,Kunst Miller,CONS,United States,Los Angeles,California,90004,W
+LC-16870,barnett@comcast.net,Lena Cacioppo,CONS,United States,Aurora,Colorado,80013,W
+LC-16885,ozawa@me.com,Lena Creighton,CONS,United States,Roseville,California,95661,W
+LC-17140,bancboy@icloud.com,Logan Currie,CONS,United States,San Francisco,California,94122,W
+LE-16810,unreal@live.com,Laurel Elliston,CONS,United States,Whittier,California,90604,W
+LH-17155,geekgrl@comcast.net,Logan Haushalter,CONS,United States,San Francisco,Ohio,94109,W
+LP-17080,ylchang@att.net,Liz Pelletier,CONS,United States,San Francisco,California,94110,W
+LR-16915,bancboy@icloud.com,Lena Radford,CONS,United States,San Diego,California,92024,W
+LS-16975,mstrout@me.com,Lindsay Shagiari,HO,United States,Los Angeles,California,90004,W
+LT-17110,mstrout@me.com,Liz Thompson,CONS,United States,Lancaster,California,93534,W
+ME-17725,cremonini@me.com,Max Engle,CONS,United States,Aurora,Colorado,80013,W
+MH-17785,msroth@me.com,Maya Herman,CORP,United States,San Diego,California,92105,W
+MJ-17740,fmerges@hotmail.com,Max Jones,CONS,United States,Seattle,Washington,98115,W
+MS-17830,specprog@icloud.com,Melanie Seite,CONS,United States,Los Angeles,California,90036,W
+MT-18070,bancboy@icloud.com,Michelle Tran,HO,United States,Los Angeles,Texas,90045,W
+MY-17380,pgolle@mac.com,Maribeth Yedwab,CORP,United States,Parker,Colorado,80134,W
+MZ-17515,unreal@live.com,Mary Zewe,CORP,United States,Redlands,California,92374,W
+NK-18490,miyop@comcast.net,Neil Knudson,HO,United States,Seattle,Washington,98105,W
+NZ-18565,msroth@me.com,Nick Zandusky,HO,United States,San Francisco,California,94110,W
+OT-18730,miyop@comcast.net,Olvera Toch,CONS,United States,Los Angeles,California,90045,W
+PB-19150,horrocks@verizon.net,Philip Brown,CONS,United States,Los Angeles,Illinois,90004,W
+PC-18745,atmarks@live.com,Pamela Coakley,CORP,United States,San Francisco,California,94122,W
+PG-18820,dcoppit@gmail.com,Patrick Gardner,CONS,United States,San Francisco,California,94110,W
+PJ-19015,mastinfo@msn.com,Pauline Johnson,CONS,United States,Santa Ana,California,92704,W
+RA-19885,mhouston@optonline.net,Ruben Ausman,CORP,United States,Los Angeles,California,90049,W
+RA-19915,atmarks@live.com,Russell Applegate,CONS,United States,Denver,Colorado,80219,W
+RB-19465,msroth@me.com,Rick Bensley,HO,United States,Vallejo,California,94591,W
+RB-19705,world@att.net,Roger Barcio,HO,United States,Portland,Oregon,97206,W
+RD-19810,payned@att.net,Ross DeVincentis,HO,United States,Los Angeles,California,90045,W
+RD-19900,geekgrl@comcast.net,Ruben Dartt,CONS,United States,Carlsbad,New Mexico,88220,W
+SC-20095,duncand@mac.com,Sanjit Chand,CONS,United States,Concord,Connecticut,94521,W
+SF-20200,cvrcek@me.com,Sarah Foster,CONS,United States,Marysville,Washington,98270,W
+SH-19975,mhouston@optonline.net,Sally Hughsby,CORP,United States,San Francisco,California,94122,W
+SP-20650,wildfire@yahoo.com,Stephanie Phelps,CORP,United States,San Jose,California,95123,W
+SP-20860,geekgrl@comcast.net,Sung Pak,CORP,United States,Los Angeles,California,90045,W
+SS-20590,stern@verizon.net,Sonia Sunley,CONS,United States,Seattle,Washington,98115,W
+TG-21640,world@att.net,Trudy Glocke,CONS,United States,Long Beach,California,90805,W
+TN-21040,unreal@live.com,Tanja Norvell,HO,United States,Phoenix,Arizona,85023,W
+TS-21610,geekgrl@comcast.net,Troy Staebel,CONS,United States,Phoenix,Arizona,85023,W
+TT-21070,dmouse@outlook.com,Ted Trevino,CONS,United States,Los Angeles,California,90045,W
+TW-21025,cremonini@me.com,Tamara Willingham,HO,United States,Scottsdale,Arizona,85254,W
+VP-21730,cvrcek@me.com,Victor Preis,HO,United States,Las Vegas,Nevada,89115,W
+XP-21865,pgolle@mac.com,Xylona Preis,CONS,United States,San Diego,Ohio,92024,W
+YC-21895,benits@msn.com,Yoseph Carroll,CORP,United States,San Francisco,California,94110,W
+ZC-21910,gordonjcp@comcast.net,Zuschuss Carroll,CONS,United States,Salem,Oregon,97301,W
+ZD-21925,fmerges@hotmail.com,Zuschuss Donatelli,CONS,United States,San Francisco,California,94109,W

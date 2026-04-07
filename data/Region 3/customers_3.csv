@@ -1,0 +1,54 @@
+cust_id,customer_email,customer_name,segment,country,city,state,postal_code,region
+AA-10480,bancboy@icloud.com,Andrew Allen,Consumer,United States,Concord,North Carolina,28027,S
+AF-10885,louise@msn.com,Art Foster,Consumer,United States,Louisville,Kentucky,40214,S
+AG-10525,stern@verizon.net,Andy Gerbode,Corporate,United States,Saint Petersburg,Florida,33710,S
+AH-10195,,Alan Haines,Corporate,United States,Tamarac,Florida,33319,S
+AJ-10780,pgolle@mac.com,Anthony Jacobs,Corporate,United States,Springfield,Virginia,22153,S
+AJ-10795,,Anthony Johnson,Corporate,United States,Saint Petersburg,Florida,33710,S
+AJ-10945,world@att.net,Ashley Jarboe,Cosumer,United States,Wilmington,North Carolina,28403,S
+AP-10915,comdig@yahoo.com,Arthur Prichep,Consumer,United States,Palm Coast,Florida,32137,S
+AS-10240,duncand@mac.com,Alan Shonely,Consumer,United States,Tampa,Florida,33614,S
+BD-11605,dmouse@outlook.com,Brian Dahlen,Consumer,United States,Miami,Florida,33180,S
+BD-11725,gordonjcp@comcast.net,Bruce Degenhardt,Cosumer,United States,Richmond,Kentucky,40475,S
+BN-11470,mastinfo@msn.com,Brad Norvell,Corporate,United States,Cary,North Carolina,27511,S
+CA-12775,dcoppit@gmail.com,Cynthia Arntzen,Consumer,United States,Tampa,Florida,33614,S
+CB-12535,bancboy@icloud.com,Claudia Bergmann,Corporate,United States,Chapel Hill,North Carolina,27514,S
+CG-12520,dawnsong@hotmail.com,Claire Gute,Cosumer,United States,Henderson,Kentucky,42420,S
+CM-12385,,Christopher Martinez,Cosumer,United States,Atlanta,Georgia,30318,S
+CS-12250,cvrcek@me.com,Chris Selesnick,Corporate,United States,Bossier City,Louisiana,71111,S
+CS-12400,tangsh@mac.com,Christopher Schild,Home Office,United States,Tampa,Florida,33614,S
+DJ-13420,cremonini@me.com,Denny Joy,Corporate,United States,Warner Robins,Georgia,31088,S
+DJ-13510,,Don Jones,Corporate,United States,Murfreesboro,Tennessee,37130,S
+DK-12985,wildfire@yahoo.com,Darren Koutras,Consumer,United States,Henderson,Kentucky,42420,S
+DK-13090,ylchang@att.net,Dave Kipp,Cosumer,United States,Springfield,Virginia,22153,S
+DO-13435,bancboy@icloud.com,Denny Ordway,Consumer,United States,Pembroke Pines,Florida,33024,S
+EA-14035,dcoppit@gmail.com,Erin Ashbrook,Corporate,United States,Charlotte,North Carolina,28205,S
+GA-14725,,Guy Armstrong,Consumer,United States,Charlotte,North Carolina,28205,S
+GG-14650,unreal@live.com,Greg Guthrie,Corporate,United States,Bristol,Tennessee,37620,S
+GT-14635,,Grant Thornton,Corporate,United States,Burlington,North Carolina,27217,S
+HK-14890,payned@att.net,Heather Kirkland,Corporate,United States,Charlotte,North Carolina,28205,S
+JB-15400,privcan@optonline.net,Jennifer Braxton,Corporate,United States,Tampa,Florida,33614,S
+JC-16105,cvrcek@me.com,Julie Creighton,Corporate,United States,Atlanta,Georgia,30318,S
+JK-15730,,Joe Kamberova,Consumer,United States,Asheville,North Carolina,28806,S
+JL-15175,leviathan@comcast.net,James Lanier,Home Office,United States,Columbia,Tennessee,38401,S
+JM-15250,dbindel@gmail.com,Janet Martin,Cosumer,United States,Charlotte,North Carolina,28205,S
+KD-16270,miyop@comcast.net,Karen Daniels,Consumer,United States,Springfield,Virginia,22153,S
+LF-17185,mstrout@me.com,Luke Foster,Consumer,United States,Miami,Florida,33180,S
+MC-17845,gordonjcp@comcast.net,Michael Chen,Consumer,United States,Jackson,Mississippi,39212,S
+MC-18130,lukka@yahoo.ca,Mike Caudle,Corporate,United States,Monroe,Louisiana,71203,S
+MD-17350,,Maribeth Dona,Cosumer,United States,Fayetteville,Arkansas,72701,S
+MK-18160,specprog@icloud.com,Mike Kennedy,Consumer,United States,Jacksonville,Florida,32216,S
+NB-18655,leviathan@comcast.net,Nona Balk,Corporate,United States,Jacksonville,Florida,32216,S
+NP-18325,leviathan@comcast.net,Naresj Patel,Cosumer,United States,Waynesboro,Virginia,22980,S
+PH-18790,shaffei@sbcglobal.net,Patricia Hirasaki,Home Office,United States,Lakeland,Florida,33801,S
+RB-19795,parrt@aol.com,Ross Baird,Home Office,United States,Gastonia,North Carolina,28052,S
+RC-19960,dinther@outlook.com,Ryan Crowe,Consumer,United States,Jacksonville,Florida,32216,S
+RL-19615,msroth@me.com,Rob Lucas,Consumer,United States,Montgomery,Alabama,36116,S
+RM-19675,,Robert Marley,Home Office,United States,Monroe,Louisiana,71203,S
+RO-19780,,Rose O'Brian,Consumer,United States,Memphis,Tennessee,38109,S
+SC-20695,,Steve Chapman,Corporate,United States,Hialeah,Florida,33012,S
+SC-20770,dinther@outlook.com,Stewart Carmichael,Corporate,United States,Decatur,Alabama,35601,S
+SH-20395,durist@aol.com,Shahid Hopkins,Cosumer,United States,Arlington,Virginia,22204,S
+SO-20335,geekgrl@comcast.net,Sean O'Donnell,Consumer,United States,Fort Lauderdale,Florida,33311,S
+VB-21745,benits@msn.com,Victoria Brennan,Corporate,United States,Columbus,Georgia,31907,S
+VD-21670,miyop@comcast.net,Valerie Dominguez,Consumer,United States,Jackson,Mississippi,39212,S

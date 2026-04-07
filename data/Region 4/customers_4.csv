@@ -1,0 +1,81 @@
+customer_id,customer_email,customer_name,segment,country,state,city,postal_code,region
+AG-10675,benits@msn.com,Anna Gayman,Consumer,United States,Houston,Texas,77036,Central
+AM-10360,louise@msn.com,Alice McCarthy,Corporate,United States,Grand Prairie,Texas,75051,Central
+BB-11545,dcoppit@gmail.com,Brenda Bowman,Corporate,United States,Houston,Texas,77070,Central
+BD-11500,shaffei@sbcglobal.net,Bradley Drucker,Consumer,United States,Green Bay,Wisconsin,54302,Central
+BE-11335,dawnsong@hotmail.com,Bill Eplett,Home Office,United States,Jackson,Michigan,49201,Central
+BF-11020,tangsh@mac.com,Barry Französisch,Corporate,United States,Green Bay,Wisconsin,54302,Central
+BM-11140,ylchang@att.net,Becky Martin,Consumer,United States,San Antonio,Texas,78207,Central
+BP-11095,benits@msn.com,Bart Pistole,Corporate,United States,Peoria,Illinois,61604,Central
+BV-11245,bsikdar@msn.com,Benjamin Venier,Corporate,United States,Des Moines,Iowa,50315,Central
+BW-11110,atmarks@live.com,Bart Watters,Corporate,United States,Milwaukee,Wisconsin,53209,Central
+CA-12265,cremonini@me.com,Christina Anderson,Consumer,United States,Chicago,Illinois,60610,Central
+CC-12430,pgolle@mac.com,Chuck Clark,Home Office,United States,Columbus,Indiana,47201,Central
+CC-12670,atmarks@live.com,Craig Carreira,Consumer,United States,Chicago,Illinois,60610,Central
+CD-11980,pgolle@mac.com,Carol Darley,Consumer,United States,Tyler,Texas,75701,Central
+CS-11950,privcan@optonline.net,Carlos Soltero,Consumer,United States,Chicago,Illinois,60610,Central
+CW-11905,dmouse@outlook.com,Carl Weiss,Home Office,United States,Huntsville,Texas,77340,Central
+DB-13060,fhirsch@outlook.com,Dave Brooks,Consumer,United States,Chicago,Illinois,60653,Central
+DC-13285,ylchang@att.net,Debra Catini,Consumer,United States,Cottage Grove,Minnesota,55016,Central
+DK-13150,tangsh@mac.com,David Kendrick,Corporate,United States,Decatur,Illinois,62521,Central
+DP-13000,unreal@live.com,Darren Powers,Consumer,United States,New Albany,Indiana,47150,Central
+DR-12880,fmerges@hotmail.com,Dan Reichenbach,Corporate,United States,Chicago,Illinois,60623,Central
+DS-13180,benits@msn.com,David Smith,Corporate,United States,Detroit,Michigan,48227,Central
+DW-13480,bancboy@icloud.com,Dianna Wilson,Home Office,United States,Lakeville,Minnesota,55044,Central
+EH-14125,privcan@optonline.net,Eugene Hildebrand,Home Office,United States,Aurora,Illinois,60505,Central
+EP-13915,louise@msn.com,Emily Phan,Consumer,United States,Chicago,Illinois,60653,Central
+ER-13855,atmarks@live.com,Elpida Rittenbach,Corporate,United States,Saint Paul,Minnesota,55106,Central
+GH-14485,mastinfo@msn.com,Gene Hale,Corporate,United States,Richardson,Texas,75080,Central
+GT-14710,leviathan@comcast.net,Greg Tran,Consumer,United States,Lakeville,Minnesota,55044,Central
+GT-14755,world@att.net,Guy Thornton,Consumer,United States,Harlingen,Texas,78550,Central
+HL-15040,louise@msn.com,Hunter Lopez,Consumer,United States,Houston,Texas,77095,Central
+HP-14815,benits@msn.com,Harold Pawlan,Home Office,United States,Jackson,Michigan,49201,Central
+JD-16150,wildfire@yahoo.com,Justin Deggeller,Corporate,United States,Minneapolis,Minnesota,55407,Central
+JE-16165,tangsh@mac.com,Justin Ellison,Corporate,United States,Franklin,Wisconsin,53132,Central
+JF-15355,mstrout@me.com,Jay Fein,Consumer,United States,Austin,Texas,78745,Central
+JH-15985,benits@msn.com,Joseph Holt,Consumer,United States,Saginaw,Michigan,48601,Central
+JM-15265,horrocks@verizon.net,Janet Molinari,Corporate,United States,Canton,Michigan,48187,Central
+JS-15940,mhouston@optonline.net,Joni Sundaresam,Home Office,United States,Park Ridge,Illinois,60068,Central
+KB-16315,mstrout@me.com,Karl Braun,Consumer,United States,Minneapolis,Minnesota,55407,Central
+KB-16585,durist@aol.com,Ken Black,Corporate,United States,Fremont,Nebraska,68025,Central
+KB-16600,miyop@comcast.net,Ken Brennan,Corporate,United States,Taylor,Michigan,48180,Central
+KH-16630,fmerges@hotmail.com,Ken Heidel,Corporate,United States,Norman,Oklahoma,73071,Central
+KL-16645,pgolle@mac.com,Ken Lonsdale,Consumer,United States,Chicago,Illinois,60610,Central
+LA-16780,specprog@icloud.com,Laura Armstrong,Corporate,United States,Taylor,Michigan,48180,Central
+LC-16930,gordonjcp@comcast.net,Linda Cazamias,Corporate,United States,Naperville,Illinois,60540,Central
+LS-17245,comdig@yahoo.com,Lynn Smith,Consumer,United States,Gladstone,Missouri,64118,Central
+MA-17560,payned@att.net,Matt Abelman,Home Office,United States,Houston,Texas,77095,Central
+MC-17605,mhouston@optonline.net,Matt Connell,Corporate,United States,Detroit,Michigan,48234,Central
+MM-18280,shaffei@sbcglobal.net,Muhammed MacIntyre,Corporate,United States,Quincy,Illinois,62301,Central
+MO-17800,bsikdar@msn.com,Meg O'Connel,Home Office,United States,Chicago,Illinois,60653,Central
+MS-17365,comdig@yahoo.com,Maribeth Schnelling,Consumer,United States,Detroit,Michigan,48227,Central
+MS-17980,dbindel@gmail.com,Michael Stewart,Corporate,United States,Dallas,Texas,75220,Central
+NF-18385,mhouston@optonline.net,Natalie Fritzler,Consumer,United States,Decatur,Illinois,62521,Central
+NP-18670,miyop@comcast.net,Nora Paige,Consumer,United States,Edmond,Oklahoma,73034,Central
+ON-18715,tangsh@mac.com,Odella Nelson,Corporate,United States,Eagan,Minnesota,55122,Central
+PA-19060,wildfire@yahoo.com,Pete Armstrong,Home Office,United States,Orland Park,Illinois,60462,Central
+PB-19105,privcan@optonline.net,Peter Bühler,Consumer,United States,Evanston,Illinois,60201,Central
+PF-19165,dcoppit@gmail.com,Philip Fox,Consumer,United States,Bloomington,Illinois,61701,Central
+PK-19075,wildfire@yahoo.com,Pete Kriz,Consumer,United States,Detroit,Michigan,48227,Central
+PM-19135,dinther@outlook.com,Peter McVee,Home Office,United States,Detroit,Michigan,48227,Central
+PO-18865,tfinniga@msn.com,Patrick O'Donnell,Consumer,United States,Westland,Michigan,48185,Central
+PO-19180,geekgrl@comcast.net,Philisse Overcash,Home Office,United States,Chicago,Illinois,60623,Central
+PO-19195,mastinfo@msn.com,Phillina Ober,Home Office,United States,Naperville,Illinois,60540,Central
+PS-18970,fmerges@hotmail.com,Paul Stevenson,Home Office,United States,Chicago,Illinois,60610,Central
+RB-19570,leviathan@comcast.net,Rob Beeghly,Consumer,United States,Columbus,Indiana,47201,Central
+RC-19825,unreal@live.com,Roy Collins,Consumer,United States,Chicago,Illinois,60610,Central
+RF-19735,specprog@icloud.com,Roland Fjeld,Consumer,United States,Trenton,Michigan,48183,Central
+RH-19495,horrocks@verizon.net,Rick Hansen,Consumer,United States,Rochester,Minnesota,55901,Central
+SA-20830,miyop@comcast.net,Sue Ann Reed,Consumer,United States,Chicago,Illinois,60610,Central
+SB-20290,stern@verizon.net,Sean Braxton,Corporate,United States,Houston,Texas,77036,Central
+SC-20305,bsikdar@msn.com,Sean Christensen,Consumer,United States,Rochester Hills,Michigan,48307,Central
+SF-20965,dmouse@outlook.com,Sylvia Foulston,Corporate,United States,Dearborn,Michigan,48126,Central
+SG-20080,mastinfo@msn.com,Sandra Glassco,Consumer,United States,Independence,Missouri,64055,Central
+SJ-20500,dawnsong@hotmail.com,Shirley Jackson,Consumer,United States,Houston,Texas,77036,Central
+SN-20710,msroth@me.com,Steve Nguyen,Home Office,United States,Houston,Texas,77041,Central
+SS-20875,atmarks@live.com,Sung Shariari,Consumer,United States,Dallas,Texas,75220,Central
+TB-21520,evans@me.com,Tracy Blumstein,Consumer,United States,Jackson,Michigan,49201,Central
+TB-21595,mstrout@me.com,Troy Blackwell,Consumer,United States,Columbus,Indiana,47201,Central
+TD-20995,wildfire@yahoo.com,Tamara Dahlen,Consumer,United States,Quincy,Illinois,62301,Central
+TH-21235,fmerges@hotmail.com,Tiffany House,Corporate,United States,Dallas,Texas,75081,Central
+TH-21550,geekgrl@comcast.net,Tracy Hopkins,Home Office,United States,Detroit,Michigan,48227,Central

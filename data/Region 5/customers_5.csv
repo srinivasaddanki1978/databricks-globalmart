@@ -1,0 +1,43 @@
+customer_id,customer_name,segment,country,city,state,postal_code,region
+NR-10000,Patricia Smith,Corporate,United States,Kansas City,Missouri,68024,North
+NR-10001,Linda Jones,Corporate,United States,Denver,Colorado,56717,North
+NR-10002,Sophia Lee,Consumer,United States,Kansas City,Missouri,88698,North
+NR-10003,Mary Smith,Consumer,United States,Milwaukee,Wisconsin,64328,North
+NR-10004,Ethan Walker,Consumer,United States,Denver,Colorado,86781,North
+NR-10005,Mason Hall,Corporate,United States,Denver,Colorado,85713,North
+NR-10006,Linda Harris,Corporate,United States,Milwaukee,Wisconsin,68231,North
+NR-10007,Jennifer Allen,Home Office,United States,Seattle,Washington,72298,North
+NR-10008,Robert Miller,Home Office,United States,Chicago,Illinois,56698,North
+NR-10009,Richard Brown,Home Office,United States,Portland,Oregon,72541,North
+NR-10010,William Johnson,Corporate,United States,Indianapolis,Indiana,80108,North
+NR-10011,Patricia Jackson,Consumer,United States,Cleveland,Ohio,86178,North
+NR-10012,Liam Walker,Home Office,United States,Chicago,Illinois,87837,North
+NR-10013,Mason Williams,Consumer,United States,Denver,Colorado,93336,North
+NR-10014,Barbara Williams,Consumer,United States,Denver,Colorado,56619,North
+NR-10015,William Harris,Corporate,United States,Milwaukee,Wisconsin,73909,North
+NR-10016,Susan Thomas,Consumer,United States,Minneapolis,Minnesota,93920,North
+NR-10017,Mason Young,Corporate,United States,Chicago,Illinois,54679,North
+NR-10018,Liam Garcia,Corporate,United States,Indianapolis,Indiana,97784,North
+NR-10019,Jennifer Harris,Home Office,United States,Denver,Colorado,67691,North
+NR-10020,Mason Lee,Consumer,United States,Kansas City,Missouri,94866,North
+NR-10021,Mary Davis,Consumer,United States,Detroit,Michigan,70673,North
+NR-10022,William Williams,Consumer,United States,Milwaukee,Wisconsin,87170,North
+NR-10023,David Miller,Corporate,United States,Omaha,Nebraska,82717,North
+NR-10024,Liam Harris,Consumer,United States,Milwaukee,Wisconsin,67359,North
+NR-10025,Linda Sanchez,Corporate,United States,Minneapolis,Minnesota,85322,North
+NR-10026,Sophia Perez,Home Office,United States,Chicago,Illinois,88242,North
+NR-10027,Susan Davis,Consumer,United States,Milwaukee,Wisconsin,83392,North
+NR-10028,John Johnson,Consumer,United States,Columbus,Ohio,60016,North
+NR-10029,Jennifer Young,Home Office,United States,Kansas City,Missouri,89086,North
+NR-10030,Richard Jackson,Corporate,United States,Portland,Oregon,80674,North
+NR-10031,William Lee,Consumer,United States,Cleveland,Ohio,94583,North
+NR-10032,Patricia Young,Corporate,United States,Omaha,Nebraska,99209,North
+NR-10033,Liam Anderson,Consumer,United States,Chicago,Illinois,69234,North
+NR-10034,Jennifer Harris,Consumer,United States,Milwaukee,Wisconsin,97323,North
+NR-10035,William Thompson,Consumer,United States,Omaha,Nebraska,83271,North
+NR-10036,Liam Taylor,Corporate,United States,Portland,Oregon,83270,North
+NR-10037,Michael Jones,Home Office,United States,Indianapolis,Indiana,99971,North
+NR-10038,Olivia Thompson,Consumer,United States,Minneapolis,Minnesota,89252,North
+NR-10039,Sarah Smith,Consumer,United States,Detroit,Michigan,73788,North
+NR-10040,Linda Johnson,Consumer,United States,Chicago,Illinois,87182,North
+NR-10041,John Sanchez,Home Office,United States,Portland,Oregon,54535,North

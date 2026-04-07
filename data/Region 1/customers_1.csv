@@ -1,0 +1,88 @@
+customer_id,customer_email,customer_name,segment,country,city,state,postal_code,region
+AB-10060,dmouse@outlook.com,Adam Bellavance,Home Office,United States,New York City,New York,10009,East
+AG-10495,dinther@outlook.com,Andrew Gjertsen,Corporate,United States,Philadelphia,Pennsylvania,19140,East
+AG-10765,evans@me.com,Anthony Garverick,Home Office,United States,Philadelphia,Pennsylvania,19120,East
+AJ-10960,stern@verizon.net,Astrea Jones,Consumer,United States,Rochester,New York,14609,East
+AR-10405,dbindel@gmail.com,Allen Rosenblatt,Corporate,United States,Franklin,Massachusetts,2038,East
+AS-10135,bancboy@icloud.com,Adrian Shami,Home Office,United States,New York City,New York,10035,East
+AS-10225,msroth@me.com,Alan Schoenberger,Corporate,United States,New York City,New York,10024,East
+BK-11260,specprog@icloud.com,Berenike Kampe,Consumer,United States,New York City,New York,10035,East
+BM-11650,atmarks@live.com,Brian Moss,Corporate,United States,New York City,New York,10035,East
+BM-11785,mastinfo@msn.com,Bryan Mills,Consumer,United States,Columbus,Ohio,43229,East
+CA-12310,specprog@icloud.com,Christine Abelman,Corporate,United States,Cincinnati,Ohio,45231,East
+CB-12025,shaffei@sbcglobal.net,Cassandra Brandow,Consumer,United States,Hamilton,Ohio,45011,East
+CK-12205,cremonini@me.com,Chloris Kastensmidt,Consumer,United States,Philadelphia,Pennsylvania,19120,East
+CK-12595,horrocks@verizon.net,Clytie Kelty,Consumer,United States,Grove City,Ohio,43123,East
+CP-12340,cremonini@me.com,Christine Phan,Corporate,United States,New York City,New York,10009,East
+CR-12625,mstrout@me.com,Corey Roper,Home Office,United States,Lakewood,New Jersey,8701,East
+CR-12730,stern@verizon.net,Craig Reiter,Consumer,United States,Columbus,Ohio,43229,East
+CV-12805,parrt@aol.com,Cynthia Voltz,Corporate,United States,New York City,New York,10035,East
+DB-13210,atmarks@live.com,Dean Braden,Consumer,United States,Philadelphia,Pennsylvania,19140,East
+DJ-13630,cvrcek@me.com,Doug Jacobs,Consumer,United States,New York City,New York,10024,East
+DL-12865,leviathan@comcast.net,Dan Lawera,Consumer,United States,Cincinnati,Ohio,45231,East
+DL-13315,specprog@icloud.com,Delfina Latchford,Consumer,United States,New York City,New York,10024,East
+DP-13165,dmouse@outlook.com,David Philippe,Consumer,United States,New York City,New York,10035,East
+DW-13585,msroth@me.com,Dorothy Wardle,Corporate,United States,Columbus,Ohio,43229,East
+Dl-13600,wildfire@yahoo.com,Dorris liebe,Corporate,United States,Cleveland,Ohio,44105,East
+EB-13705,dawnsong@hotmail.com,Ed Braxton,Corporate,United States,New York City,New York,10024,East
+EG-13900,msroth@me.com,Emily Grady,Consumer,United States,Oceanside,New York,11572,East
+EL-13735,payned@att.net,Ed Ludwig,Home Office,United States,Columbia,Maryland,21044,East
+EM-13960,bsikdar@msn.com,Eric Murdock,Consumer,United States,Philadelphia,Pennsylvania,19134,East
+EM-14065,gordonjcp@comcast.net,Erin Mull,Consumer,United States,New York City,New York,10024,East
+FH-14365,mhouston@optonline.net,Fred Hopkins,Corporate,United States,Philadelphia,Pennsylvania,19120,East
+GB-14530,geekgrl@comcast.net,George Bell,Corporate,United States,Auburn,New York,13021,East
+GD-14590,specprog@icloud.com,Giulietta Dortch,Corporate,United States,Philadelphia,Pennsylvania,19143,East
+GP-14740,unreal@live.com,Guy Phonely,Corporate,United States,Lancaster,Pennsylvania,17602,East
+HM-14980,msroth@me.com,Henry MacAllister,Consumer,United States,New York City,New York,10009,East
+JB-15925,world@att.net,Joni Blumstein,Consumer,United States,Dublin,Ohio,43017,East
+JD-15895,evans@me.com,Jonathan Doherty,Corporate,United States,Belleville,New Jersey,7109,East
+JE-15475,specprog@icloud.com,Jeremy Ellison,Consumer,United States,Troy,New York,12180,East
+JF-15415,mhouston@optonline.net,Jennifer Ferguson,Consumer,United States,New York City,New York,10024,East
+JG-15805,evans@me.com,John Grady,Corporate,United States,New York City,New York,10024,East
+JK-15640,pgolle@mac.com,Jim Kriz,Home Office,United States,New York City,New York,10009,East
+JL-15505,evans@me.com,Jeremy Lonsdale,Consumer,United States,New York City,New York,10035,East
+JL-15850,duncand@mac.com,John Lucas,Consumer,United States,Philadelphia,Pennsylvania,19134,East
+JO-15550,parrt@aol.com,Jesus Ocampo,Home Office,United States,Chester,Pennsylvania,19013,East
+JR-16210,dmouse@outlook.com,Justin Ritter,Corporate,United States,Springfield,Ohio,45503,East
+KW-16435,geekgrl@comcast.net,Katrina Willman,Consumer,United States,New York City,New York,10009,East
+LH-16900,shaffei@sbcglobal.net,Lena Hernandez,Consumer,United States,Dover,Delaware,19901,East
+LH-17020,payned@att.net,Lisa Hazard,Consumer,United States,Columbus,Ohio,43229,East
+LL-16840,cvrcek@me.com,Lauren Leatherbury,Consumer,United States,Rochester,New York,14609,East
+LM-17065,miyop@comcast.net,Liz MacKendrick,Consumer,United States,Springfield,Ohio,45503,East
+LS-16945,stern@verizon.net,Linda Southworth,Corporate,United States,Philadelphia,Pennsylvania,19140,East
+MB-17305,louise@msn.com,Maria Bertelson,Consumer,United States,Akron,Ohio,44312,East
+MG-17680,bsikdar@msn.com,Maureen Gastineau,Home Office,United States,Newark,Ohio,43055,East
+MG-18145,dawnsong@hotmail.com,Mike Gockenbach,Consumer,United States,Philadelphia,Pennsylvania,19134,East
+MK-17905,atmarks@live.com,Michael Kennedy,Corporate,United States,Manchester,Connecticut,6040,East
+MP-17470,dcoppit@gmail.com,Mark Packer,Home Office,United States,New York City,New York,10035,East
+MP-17965,leviathan@comcast.net,Michael Paige,Corporate,United States,Lawrence,Massachusetts,1841,East
+MR-17545,dmouse@outlook.com,Mathew Reese,Home Office,United States,Philadelphia,Pennsylvania,19140,East
+MV-18190,unreal@live.com,Mike Vittorini,Consumer,United States,New York City,New York,10009,East
+NG-18355,world@att.net,Nat Gilpin,Corporate,United States,New York City,New York,10011,East
+NG-18430,privcan@optonline.net,Nathan Gelder,Consumer,United States,Cincinnati,Ohio,45231,East
+NM-18445,gordonjcp@comcast.net,Nathan Mautz,Home Office,United States,New York City,New York,10024,East
+PK-18910,louise@msn.com,Paul Knutson,Home Office,United States,Philadelphia,Pennsylvania,19143,East
+PN-18775,cremonini@me.com,Parhena Norris,Home Office,United States,New York City,New York,10009,East
+PO-18850,privcan@optonline.net,Patrick O'Brill,Consumer,United States,Philadelphia,Pennsylvania,19143,East
+RA-19285,pgolle@mac.com,Ralph Arnett,Consumer,United States,New York City,New York,10035,East
+RB-19360,mrdvt@hotmail.com,Raymond Buch,Consumer,United States,Auburn,New York,13021,East
+RF-19840,dawnsong@hotmail.com,Roy Französisch,Consumer,United States,New York City,New York,10024,East
+RP-19390,dinther@outlook.com,Resi Pölking,Consumer,United States,Cleveland,Ohio,44105,East
+RS-19765,lukka@yahoo.ca,Roland Schwarz,Corporate,United States,Mount Vernon,New York,10550,East
+SC-20050,mastinfo@msn.com,Sample Company A,Home Office,United States,Norwich,Connecticut,6360,East
+SC-20725,bsikdar@msn.com,Steven Cartwright,Consumer,United States,Wilmington,Delaware,19805,East
+SD-20485,leviathan@comcast.net,Shirley Daniels,Home Office,United States,New Rochelle,New York,10801,East
+SF-20065,ylchang@att.net,Sandra Flanagan,Consumer,United States,Philadelphia,Pennsylvania,19140,East
+SJ-20125,wildfire@yahoo.com,Sanjit Jacobs,Home Office,United States,New Brunswick,New Jersey,8901,East
+SK-19990,evans@me.com,Sally Knutson,Consumer,United States,Fairfield,Connecticut,6824,East
+SM-20005,dmouse@outlook.com,Sally Matthias,Consumer,United States,New York City,New York,10009,East
+SP-20545,mstrout@me.com,Sibella Parks,Corporate,United States,New York City,New York,10011,East
+SR-20740,duncand@mac.com,Steven Roelle,Home Office,United States,New York City,New York,10024,East
+SS-20140,mrdvt@hotmail.com,Saphhira Shifley,Corporate,United States,Warwick,Rhode Island,2886,East
+SV-20365,barnett@comcast.net,Seth Vernon,Consumer,United States,Dover,Delaware,19901,East
+TB-21055,durist@aol.com,Ted Butterfield,Consumer,United States,Troy,New York,12180,East
+TP-21130,evans@me.com,Theone Pippenger,Consumer,United States,Philadelphia,Pennsylvania,19134,East
+TR-21325,fmerges@hotmail.com,Toby Ritter,Consumer,United States,Belleville,New Jersey,7109,East
+TS-21205,msroth@me.com,Thomas Seio,Corporate,United States,Hackensack,New Jersey,7601,East
+VM-21685,bancboy@icloud.com,Valerie Mitchum,Home Office,United States,Westfield,New Jersey,7090,East
+VW-21775,cremonini@me.com,Victoria Wilson,Corporate,United States,Medina,Ohio,44256,East
